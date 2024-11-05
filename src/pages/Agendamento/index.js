@@ -149,7 +149,7 @@ const Agendamento = () => {
                 <IconButton aria-label="menu" sx={{ color: '#036C6E' }} onClick={() => navigate('/Menu')}>
                     <AiOutlineMenu size={28} />
                 </IconButton>
-                <img src="/images/images-removebg-preview.png" alt="Logo"   style={{ height: 80 }} />
+                <img src="/images/images-removebg-preview.png" alt="Logo"   style={{ height: 100 }} />
                 <IconButton aria-label="logout" sx={{ color: '#036C6E' }} onClick={() => navigate('/Logout')}>
                     <AiOutlineLogout size={28} />
                 </IconButton>
@@ -161,8 +161,9 @@ const Agendamento = () => {
                 </Typography>
             </Box>
 
-            <Box sx={{ mt: 3 }}>
-                <FormControl fullWidth margin="normal">
+            <Box display="flex" justifyContent="space-between" alignItems="center" gap='15px'>
+
+                <FormControl fullWidth >
                     <InputLabel id="disciplina-label">Disciplina</InputLabel>
                     <Select
                         labelId="disciplina-label"
@@ -176,7 +177,7 @@ const Agendamento = () => {
                         <MenuItem value="Disciplina 2 - A3">Disciplina 2 - A3</MenuItem>
                     </Select>
                 </FormControl>
-
+             
                 <LocalizationProvider dateAdapter={AdapterDayjs}>
                     <DatePicker
                         label="Data"
@@ -186,7 +187,7 @@ const Agendamento = () => {
                     />
                 </LocalizationProvider>
 
-                <FormControl fullWidth margin="normal">
+                <FormControl fullWidth >
                     <InputLabel id="horario-label">Horário</InputLabel>
                     <Select
                         labelId="horario-label"
@@ -200,16 +201,16 @@ const Agendamento = () => {
                         <MenuItem value="10:00">10:00 - 11:00</MenuItem>
                     </Select>
                 </FormControl>
-
+</Box>
                 <Box display="flex" justifyContent="space-between" mt={3}>
                     <Button variant="contained" color="primary" onClick={handleAgendar}>
                         Agendar
                     </Button>
                 </Box>
-            </Box>
+          
 
             <TableContainer component={Paper} sx={{ mt: 3 }}>
-                <Table sx={{ minWidth: 550 }} aria-label="tabela de agendamentos">
+                <Table sx={{ maxWidth: 550 }} aria-label="tabela de agendamentos">
                     <TableHead>
                         <TableRow>
                             <TableCell>ID</TableCell>

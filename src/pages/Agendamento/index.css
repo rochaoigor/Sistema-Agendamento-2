@@ -1,17 +1,5 @@
 
 
-.agendamento-header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
- 
-}
-
-.logo {
-  height: 50px;
-}
 
 h2 {
   color: #036C6E;

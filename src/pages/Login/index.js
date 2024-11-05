@@ -49,7 +49,7 @@ function Login() {
   return (
     <Container maxWidth="xs" className="login-container" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
       <Box className="login-logo" sx={{ marginBottom: 2 }}>
-        <img src="/images/images-removebg-preview.png" alt="Logo" style={{ width: '150px' }} />
+        <img src="/images/images-removebg-preview.png" alt="Logo" style={{ width: '125px' }} />
       </Box>
       <Typography variant="h4" component="h1" sx={{ fontWeight: 'bold', marginBottom: 2 }}>Login</Typography>
       <Box component="form" onSubmit={handleSubmit} sx={{ width: '100%', backgroundColor: 'white', padding: 3, borderRadius: 2, boxShadow: 2 }}>
