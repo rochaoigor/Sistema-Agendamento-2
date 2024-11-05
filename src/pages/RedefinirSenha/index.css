@@ -1,0 +1,27 @@
+
+.redefinir-senha-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  overflow: hidden; 
+  box-sizing: border-box; 
+}
+  
+.card-container {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 0;
+}
+  
+  .login-logo img {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .redefinir-titulo {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }

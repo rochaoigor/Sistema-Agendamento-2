@@ -1,0 +1,82 @@
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-logo img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.MuiTextField-root {
+  margin-bottom: 15px;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #1F6F5C;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #135944;
+}
+
+.MuiButton-containedSecondary {
+  background-color: #007BFF;
+}
+
+.MuiButton-containedSecondary:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: #2C8ED6;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.login-btn {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background-color: #007BFF;
+  color: white;
+}
+
+.login-btn:hover {
+  opacity: 0.8;
+}
+
+.jacad-btn {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background-color: #1F6F5C;
+  color: white;
+}
+
+.jacad-btn:hover {
+  opacity: 0.8;
+}

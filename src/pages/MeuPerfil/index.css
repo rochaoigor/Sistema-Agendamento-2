@@ -1,0 +1,46 @@
+
+
+  .perfil-header {
+    text-align: center;
+  }
+  
+  .perfil-logo {
+    width: 100px;
+  }
+  
+  .perfil-icon {
+    font-size: 50px;
+    color: #333;
+  }
+  
+  .perfil-form {
+    margin-top: 20px;
+    width: 90%;
+   
+  }
+  
+  .perfil-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .foto-icon {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  
+  .voltar-btn {
+    background-color: #01a4b8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+  }  

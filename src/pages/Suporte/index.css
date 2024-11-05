@@ -1,0 +1,30 @@
+
+
+.menu-icon-suporte, .logout-icon {
+  color: #036C6E;
+  cursor: pointer;
+}
+
+.logo-suporte {
+  height: 100px;
+}
+
+.support-options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.support-option {
+  width: 100%;
+  
+}
+
+.support-option h6 {
+  margin-bottom:15px;
+}
+
+.containerBase h4 {
+  margin-top:15px;
+  margin-bottom:15px;
+}

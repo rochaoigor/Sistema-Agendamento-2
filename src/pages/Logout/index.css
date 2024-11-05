@@ -1,0 +1,42 @@
+
+
+.logout-page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #B0EACD, #FFFFFF);
+}
+
+.logout-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-logout {
+  height: 125px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-sim {
+  background-color: #02896f;
+}
+
+.btn-nao {
+  background-color: #e74c3c;
+}
